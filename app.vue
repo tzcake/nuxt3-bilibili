@@ -23,3 +23,9 @@ useSeoMeta({
     <NuxtPage />
   </div>
 </template>
+<style>
+:root{
+  /* CSS变量设置组件库主题 */
+  --van-primary-color:#FB7299 !important  ;
+}
+</style>
