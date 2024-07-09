@@ -23,7 +23,11 @@ useSeoMeta({
     <NuxtPage />
   </div>
 </template>
-<style>
+<style lang="scss">
+//基础样式
+@import './assets/styles/base.scss';
+//字体图标
+@import './assets/styles/iconfont.scss';
 :root{
   /* CSS变量设置组件库主题 */
   --van-primary-color:#FB7299 !important  ;
