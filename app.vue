@@ -22,7 +22,9 @@ useSeoMeta({
     <!-- 视频页 video/index.vue -->
     <!-- <NuxtLink to="/video">视频页</NuxtLink> -->
     <!-- Nuxt 页面路由，相当于RouterView -->
-    <NuxtPage />
+    
+    <!-- keepalive 设置页面缓存 -->
+    <NuxtPage :keepalive="{ max: 10 }" />
   </div>
 </template>
 <style lang="scss">
