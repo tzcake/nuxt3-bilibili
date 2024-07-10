@@ -42,7 +42,7 @@ onLoad()
 </script>
 
 <template>
-  
+  <AppHeader />
   <!-- 频道模块 -->
   <van-tabs>
     <van-tab v-for="item in channelList" :key="item.id" :title="item.name" />
